@@ -1,0 +1,13 @@
+[Unit]
+Description=Golang Server
+After=network.target
+
+[Service]
+User=ec2-user
+Group=ec2-user
+WorkingDirectory=/home/ec2-user/app
+ExecStart=/usr/bin/make
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

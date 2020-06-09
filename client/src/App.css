@@ -1,0 +1,42 @@
+.app {
+  margin: 0px;
+  padding: 0px;
+}
+
+.header {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+}
+
+.brand {
+  padding: 0px 10px;
+}
+
+.language {
+  padding: 0px 10px;
+}
+
+.editor-container {
+  display: flex;
+  height: 100vh;
+}
+
+.editor {
+  flex: 3;
+}
+
+.result {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  padding: 10px;
+  flex: 1;
+}
+
+.result-title {
+  color: #ffffff;
+}
+
+.result-value {
+  white-space: pre-line;
+}
